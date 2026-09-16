@@ -1,0 +1,20 @@
+{
+  "id": "/GIOSTACCHIO-HUB/",
+  "name": "GIOSTACCHIO HUB",
+  "short_name": "GIO HUB",
+  "description": "Centro unico per tutti i programmi e tool GIOSTACCHIO",
+  "start_url": "/GIOSTACCHIO-HUB/?pwa=hub",
+  "scope": "/GIOSTACCHIO-HUB/",
+  "display": "standalone",
+  "background_color": "#0b1020",
+  "theme_color": "#0b1020",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
