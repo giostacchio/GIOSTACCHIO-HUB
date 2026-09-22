@@ -1,5 +1,5 @@
-const CACHE='giostacchio-hub-v3';
-const CORE=['./','./index.html','./manifest.webmanifest','./icon.svg'];
+const CACHE='giostacchio-hub-v4';
+const CORE=['./','./index.html','./cna-lampo.html','./manifest.webmanifest','./icon.svg'];
 
 self.addEventListener('install',e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(CORE)));
