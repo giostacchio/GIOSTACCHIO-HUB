@@ -1,4 +1,4 @@
-const CACHE='giostacchio-hub-v6';
+const CACHE='giostacchio-hub-v7';
 const CORE=['./','./index.html','./cna-lampo.html','./arbitro-assente.html','./manifest.webmanifest','./icon.svg'];
 
 self.addEventListener('install',e=>{
